@@ -30,6 +30,7 @@
 ### 什么是三次握手 (three-way handshake)？
 
 ![三次握手](_v_images/20191129101827556_21212.png)
+- https://www.bilibili.com/video/BV1bi4y1x7m5?from=search&seid=12861544114542316192
 
 - 第一次握手：Client将SYN置1，随机产生一个初始序列号seq发送给Server，进入SYN_SENT状态；
 - 第二次握手：Server收到Client的SYN=1之后，知道客户端请求建立连接，将自己的SYN置1，ACK置1，产生一个acknowledge number=sequence number+1，并随机产生一个自己的初始序列号，发送给客户端；进入SYN_RCVD状态；
@@ -129,6 +130,8 @@ MSL(Maximum Segment Lifetime)，指一个片段在网络中最大的存活时间
 </details>
 
 ### TCP的拥塞控制是怎么实现的？
+- https://www.bilibili.com/video/BV1Tb411x7CE?p=120
+（16：00开始）
 
 ![拥塞控制](_v_images/20191129153624025_28293.png)
 
