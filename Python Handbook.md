@@ -124,5 +124,6 @@ print(a is b)
 - ```lst.sort(reverse = False)```：排序，默认升序
 
 ### 参考
+- 面试题：http://r.photo.store.qq.com/psc?/V504yO7s28rNH33Rx9wh12kyCP2wYNBn/45NBuzDIW489QBoVep5mcZd0gav67ypWwlsbmTeNHzXYEGDDx5aMbVSkVB24ysZsvjGIeORz21gmtkT2sYCgSfZrx7Fm6*mRo3yNra68U10!/r
 - [生成器 - 廖雪峰的官方网站](https://www.liaoxuefeng.com/wiki/1016959663602400/1017318207388128)
 - [Python中的is和==的区别](https://www.cnblogs.com/yjtxin/p/11793243.html)
